@@ -2069,3 +2069,414 @@ java.nio.file.FileSystemNotFoundException: Provider "git" not installed
 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
+2026.05.03 17:35:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:35:33 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 17:35:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:35:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:35:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:35:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:35:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 5:35:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/c%3A/Users/Naadiya/nub-renewable-energy/src/main/scala/AnalysisEngine.scala?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CNaadiya%5C%5Cnub-renewable-energy%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CAnalysisEngine.scala%22%2C%22ref%22%3A%22%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 17:42:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:21 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:42:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:27 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:28 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:42:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:44 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:44 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:46 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:46 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:51 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:42:57 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:07 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:07 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:07 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:07 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:08 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:43:08 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:19 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:43:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:20 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:26 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:43:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:27 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:27 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:29 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:43:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:37 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:37 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:43:37 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:47:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:47:22 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:47:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:47:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:47:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:48:43 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:48:43 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:48:43 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:48:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:50:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:50:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:50:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:50:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:51:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:51:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:51:59 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:51:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:52:00 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:51:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 5:52:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/c%3A/Users/Naadiya/nub-renewable-energy/src/main/scala/AnalysisEngine.scala?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CNaadiya%5C%5Cnub-renewable-energy%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CAnalysisEngine.scala%22%2C%22ref%22%3A%227ebbc3c8bba55ca31050691dacf3caeb0ba4bf22%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 17:52:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:52:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:47 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:47 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:53:47 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:47 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:53:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:51 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:53:57 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 5:54:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "metals/didFocusTextDocument",
+  "params": [
+    "git:/c%3A/Users/Naadiya/nub-renewable-energy/src/main/scala/AnalysisEngine.scala?%7B%22path%22%3A%22c%3A%5C%5CUsers%5C%5CNaadiya%5C%5Cnub-renewable-energy%5C%5Csrc%5C%5Cmain%5C%5Cscala%5C%5CAnalysisEngine.scala%22%2C%22ref%22%3A%22%22%7D"
+  ]
+}
+java.nio.file.FileSystemNotFoundException: Provider "git" not installed
+	at java.base/java.nio.file.Path.of(Path.java:213)
+	at java.base/java.nio.file.Paths.get(Paths.java:98)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionURIMtags.toAbsolutePath(MtagsEnrichments.scala:149)
+	at scala.meta.internal.mtags.MtagsEnrichments$XtensionStringMtags.toAbsolutePath(MtagsEnrichments.scala:209)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:787)
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionString.toAbsolutePath(MetalsEnrichments.scala:784)
+	at scala.meta.internal.metals.WorkspaceLspService.didFocus(WorkspaceLspService.scala:808)
+	at scala.meta.metals.lsp.DelegatingScalaService.didFocus(DelegatingScalaService.scala:42)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:160)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:225)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:192)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 17:54:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:01 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:54:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:04 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:54:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:05 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:08 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:08 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:08 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:08 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:10 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:54:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:32 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:40 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:40 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:40 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:42 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:45 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:45 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:45 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:45 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:45 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:46 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:47 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:54:47 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:54:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:05 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:44 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:44 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:44 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:49 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:49 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:49 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:57:55 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:57:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:58:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:58:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:58:02 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:58:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:58:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:59:32 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:59:32 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:59:32 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:59:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 17:59:33 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 17:59:33 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:01:04 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:01:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:01:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:02:01 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 18:02:01 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:02:05 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:02:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 18:43:41 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 20:55:51 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 20:55:51 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala
+2026.05.03 20:55:51 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\AnalysisEngine.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 20:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 20:55:55 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 20:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 20:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 20:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18

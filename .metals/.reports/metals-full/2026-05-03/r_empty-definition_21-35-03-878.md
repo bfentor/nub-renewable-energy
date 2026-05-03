@@ -1,3 +1,19 @@
+error id: file:///C:/Users/Naadiya/nub-renewable-energy/src/main/scala/AnalysisEngine.scala:scala/collection/immutable/StrictOptimizedSeqOps#sorted().
+file:///C:/Users/Naadiya/nub-renewable-energy/src/main/scala/AnalysisEngine.scala
+empty definition using pc, found symbol in pc: scala/collection/immutable/StrictOptimizedSeqOps#sorted().
+empty definition using semanticdb
+empty definition using fallback
+non-local guesses:
+	 -data/sorted.
+	 -data/sorted#
+	 -data/sorted().
+	 -scala/Predef.data.sorted.
+	 -scala/Predef.data.sorted#
+	 -scala/Predef.data.sorted().
+offset: 1133
+uri: file:///C:/Users/Naadiya/nub-renewable-energy/src/main/scala/AnalysisEngine.scala
+text:
+```scala
 //calculates energy data statistics
 object AnalysisEngine {
     def mean(data: List[Double]): Double = {
@@ -34,8 +50,14 @@ object AnalysisEngine {
 
   // halfway point between minimum and maximum energy value
   def midrange(data: List[Double]): Double = {
-    if (data.isEmpty) return 0.0
-    val sorted = data.sorted
+    val sorted = data.sorte@@d
     (sorted.head + sorted.last) / 2
   }
 }
+
+```
+
+
+#### Short summary: 
+
+empty definition using pc, found symbol in pc: scala/collection/immutable/StrictOptimizedSeqOps#sorted().

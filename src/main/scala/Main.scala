@@ -1,6 +1,6 @@
 import requests._
 import io.github.cdimascio.dotenv.Dotenv
-import AnalysisEngine.testFunc
+import AnalysisEngine._
 
 object Main extends App {
   private val env = Dotenv.load()
@@ -11,34 +11,17 @@ object Main extends App {
     val headers = Map("x-api-key" -> apiKey)
     val response = requests.get(url, headers = headers)
     response.text()
+    var currentRecords: List[Double] = List()
   }
 
   // Wind data example. Date not yet implemented
   println(getData("2026-05-03", "246"))
-  println(testFunc("This is a test"))
+  // println(testFunc("This is a test"))
+  
 
-  //alertsystem
-  def checkThresholds(data: String): Unit = { 
-    // Placeholder for threshold checking logic
-    println("Checking thresholds for data: " + data)
-  }
-
-  def generateAlerts(data: String): Unit = {
-    // Placeholder for alert generation logic
-    println("Generating alerts for data: " + data)
-  }
-
-  //analysis engine
-  def analyzeData(data: String): Unit = {
-    // Placeholder for data analysis logic
-    println("Analyzing data: " + data)
-  }
-
-
-
-  def main(args: Array[String]): Unit = {
-    while (true) {
-      val input = scala.io.StdIn.readline("Enter input, 1. View power plant status 2. Enter new data 3. Data Analysis! 4. Filter and search records 5. System Alert Check! 6. Exit :(   :")
+  // def main(): Unit = {
+  //   while (true) {
+  //     // val input = scala.io.StdIn.readLine("Enter input, 1. View power plant status 2. Enter new data 3. Data Analysis! 4. Filter and search records 5. Exit")
 
       input match {
         case "1" => println("Viewing power plant status...")
