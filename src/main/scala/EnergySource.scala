@@ -1,6 +1,5 @@
 import java.time.LocalDateTime
 
-// Represents a renewable energy source
 sealed trait EnergySource {
   def name: String
 }
@@ -24,12 +23,11 @@ object EnergySource {
   }
 }
 
-// Represents a single energy reading from a source
 case class EnergyReading(
   sourceType: EnergySource,
-  energyGenerated: Double,  // in kWh
+  energyGenerated: Double,
   timestamp: LocalDateTime,
-  capacity: Double          // maximum capacity in kW
+  capacity: Double
 ) {
   def toCSV: String = s"${sourceType.name},$energyGenerated,$timestamp,$capacity"
 }

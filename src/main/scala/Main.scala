@@ -4,88 +4,134 @@ import scala.io.StdIn
 
 object Main extends App {
 
-  // Initialize the system
-  DataStorage.initialize()
-  EnergyMonitoringView.showHeader()
+  private var currentData: List[EnergyReading] = List()
 
-  // Main application loop
+  EnergyMonitoringView.showHeader()
+  println("\nWelcome to the Renewable Energy Monitoring System.")
+  println("This system works exclusively with real-time data from the power plant API.")
+  println("You must fetch data to begin analysis.")
+
   private var running = true
 
   while (running) {
     EnergyMonitoringView.showMenu()
-    print("\nEnter your choice (1-9) or command: ")
+    print("\nEnter your choice (1-8) or command: ")
     val input = StdIn.readLine().trim.toLowerCase
 
     input match {
-      case "1" => handleAddReading()
+      case "1" => handleFetchFromAPI()
       case "2" => handleViewAll()
       case "3" => handleViewBySource()
-      case "4" => handleFilterByTime()
-      case "5" => handleSearchByEnergy()
-      case "6" => handleSort()
-      case "7" => handleViewSummary()
-      case "8" => handleClearData()
-      case "9" | "exit" => running = false
+      case "4" => handleViewSummary()
+      case "5" | "exit" => running = false
       case "help" => EnergyMonitoringView.showHelp()
-      case _ => handleCommandInput(input)
+      case _ => println("Unknown command. Type 'help' for available commands.")
     }
   }
 
   println("\nThank you for using the Renewable Energy Monitoring System. Goodbye!")
 
-  // Command handlers
+  private def handleFetchFromAPI(): Unit = {
+    println("\n--- Fetch Data from Power Plant API ---")
+    println("Format: yyyy-MM-dd (example: 2024-12-01)")
+    print("Enter start date: ")
+    val startDate = StdIn.readLine().trim
+    print("Enter end date: ")
+    val endDate = StdIn.readLine().trim
+    
+    try {
+      val dateFormat = DateTimeFormatter.ofPattern("yyyy-MM-dd")
+      val parsedStart = LocalDateTime.parse(startDate + "T00:00:00", DateTimeFormatter.ISO_LOCAL_DATE_TIME)
+      val parsedEnd = LocalDateTime.parse(endDate + "T23:59:59", DateTimeFormatter.ISO_LOCAL_DATE_TIME)
+      
+      if (parsedEnd.isBefore(parsedStart)) {
+        println("Error: End date must be after start date")
+        return
+      }
+      
+      val validStart = LocalDateTime.parse("2024-12-01T00:00:00")
+      val validEnd = LocalDateTime.parse("2024-12-03T23:59:59")
+      
+      if (parsedStart.isBefore(validStart) || parsedEnd.isAfter(validEnd)) {
+        println("No data found for the specified date range.")
+        println("  (Sample data only available from 2024-12-01 to 2024-12-03)")
+        return
+      }
+      
+      println("\nFetching data from API...")
+      EnergyDataAPI.getAllEnergyData(startDate, endDate) match {
+        case scala.util.Success(readings) =>
+          if (readings.nonEmpty) {
+            currentData = readings
+            println(s"Successfully fetched ${readings.length} readings")
+            println(s"Wind readings: ${readings.count(_.sourceType == EnergySource.Wind)}")
+            println(s"Solar readings: ${readings.count(_.sourceType == EnergySource.Solar)}")
+            println(s"Hydro readings: ${readings.count(_.sourceType == EnergySource.Hydro)}")
+          } else {
+            println("No data found.")
+          }
+        case scala.util.Failure(e) =>
+          println(s"Error: ${e.getMessage}")
+      }
+    } catch {
+      case _: Exception => println("Invalid date format. Use: yyyy-MM-dd")
+    }
 
-  private def handleAddReading(): Unit = {
-    println("\n--- Add New Energy Reading ---")
-    print("Enter energy source (solar/wind/hydro): ")
-    val sourceStr = StdIn.readLine().trim.toLowerCase
-
-    EnergySource.fromString(sourceStr) match {
-      case Some(source) =>
-        print("Enter energy generated (kWh): ")
-        val energy = getDoubleInput()
-
-        print("Enter capacity (kW): ")
-        val capacity = getDoubleInput()
-
-        val reading = EnergyReading(source, energy, LocalDateTime.now(), capacity)
-        DataStorage.addReading(reading) match {
-          case scala.util.Success(_) =>
-            println(s"✓ Reading added successfully for ${source.name} at ${LocalDateTime.now()}")
-          case scala.util.Failure(e) =>
-            println(s"✗ Error adding reading: ${e.getMessage}")
-        }
-
-      case None =>
-        println("✗ Invalid energy source. Please use: solar, wind, or hydro")
+    val dataDir = new java.io.File("data")
+    if (!dataDir.exists()) {
+      dataDir.mkdirs()
+    }
+    
+    val csvFile = new java.io.File("data/fetched_data.csv")
+    val writer = new java.io.PrintWriter(new java.io.FileWriter(csvFile))
+    writer.println("SourceType,EnergyGenerated,Timestamp,Capacity")
+    currentData.foreach(r => writer.println(s"${r.sourceType.name},${r.energyGenerated},${r.timestamp},${r.capacity}"))
+    writer.close()
+    
+    if (csvFile.exists() && csvFile.length() > 0) {
+      println(s"\nData saved to data/fetched_data.csv (${csvFile.length()} bytes)")
+    } else {
+      println(s"\nFailed to save CSV file")
     }
   }
 
   private def handleViewAll(): Unit = {
-    val readings = DataStorage.getAllReadings
+    if (currentData.isEmpty) {
+      println("\nNo data loaded. Please fetch data from the API first (option 1).")
+      return
+    }
     println("\n--- All Energy Readings ---")
-    EnergyMonitoringView.displayReadings(readings)
+    EnergyMonitoringView.displayReadings(currentData)
   }
 
   private def handleViewBySource(): Unit = {
+    if (currentData.isEmpty) {
+      println("\nNo data loaded. Please fetch data from the API first (option 1).")
+      return
+    }
+
     println("\n--- View by Source ---")
     print("Enter energy source (solar/wind/hydro): ")
     val sourceStr = StdIn.readLine().trim.toLowerCase
 
     EnergySource.fromString(sourceStr) match {
       case Some(source) =>
-        val allReadings = DataStorage.getAllReadings
-        val filtered = DataAnalyzer.filterBySource(allReadings, source)
+        val filtered = DataAnalyzer.filterBySource(currentData, source)
         println(s"\n--- ${source.name} Energy Readings ---")
         EnergyMonitoringView.displayReadings(filtered)
         EnergyMonitoringView.displayBySource(filtered)
 
       case None =>
-        println("✗ Invalid energy source.")
+        println("Invalid energy source.")
     }
   }
 
   private def handleFilterByTime(): Unit = {
+    if (currentData.isEmpty) {
+      println("\nNo data loaded. Please fetch data from the API first (option 1).")
+      return
+    }
+
     println("\n--- Filter Readings by Time ---")
     println("1. By Hour")
     println("2. By Day")
@@ -94,14 +140,12 @@ object Main extends App {
     print("Enter your choice (1-4): ")
     val choice = StdIn.readLine().trim
 
-    val allReadings = DataStorage.getAllReadings
-
     choice match {
-      case "1" => filterByHour(allReadings)
-      case "2" => filterByDay(allReadings)
-      case "3" => filterByWeek(allReadings)
-      case "4" => filterByMonth(allReadings)
-      case _ => println("✗ Invalid choice.")
+      case "1" => filterByHour(currentData)
+      case "2" => filterByDay(currentData)
+      case "3" => filterByWeek(currentData)
+      case "4" => filterByMonth(currentData)
+      case _ => println("Invalid choice.")
     }
   }
 
@@ -114,7 +158,7 @@ object Main extends App {
       println(s"\n--- Readings for hour: ${dateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:00"))} ---")
       EnergyMonitoringView.displayReadings(filtered)
     } catch {
-      case _: Exception => println("✗ Invalid date format. Use: yyyy-MM-dd HH")
+      case _: Exception => println("Invalid date format. Use: yyyy-MM-dd HH")
     }
   }
 
@@ -127,7 +171,7 @@ object Main extends App {
       println(s"\n--- Readings for day: ${dateTime.toLocalDate} ---")
       EnergyMonitoringView.displayReadings(filtered)
     } catch {
-      case _: Exception => println("✗ Invalid date format. Use: yyyy-MM-dd")
+      case _: Exception => println("Invalid date format. Use: yyyy-MM-dd")
     }
   }
 
@@ -140,7 +184,7 @@ object Main extends App {
       println(s"\n--- Readings for the week containing ${dateTime.toLocalDate} ---")
       EnergyMonitoringView.displayReadings(filtered)
     } catch {
-      case _: Exception => println("✗ Invalid date format. Use: yyyy-MM-dd")
+      case _: Exception => println("Invalid date format. Use: yyyy-MM-dd")
     }
   }
 
@@ -153,11 +197,16 @@ object Main extends App {
       println(s"\n--- Readings for month: ${dateTime.format(DateTimeFormatter.ofPattern("yyyy-MM"))} ---")
       EnergyMonitoringView.displayReadings(filtered)
     } catch {
-      case _: Exception => println("✗ Invalid date format. Use: yyyy-MM")
+      case _: Exception => println("Invalid date format. Use: yyyy-MM")
     }
   }
 
   private def handleSearchByEnergy(): Unit = {
+    if (currentData.isEmpty) {
+      println("\nNo data loaded. Please fetch data from the API first (option 1).")
+      return
+    }
+
     println("\n--- Search Readings by Energy Range ---")
     print("Enter minimum energy (kWh): ")
     val minEnergy = getDoubleInput()
@@ -165,13 +214,17 @@ object Main extends App {
     print("Enter maximum energy (kWh): ")
     val maxEnergy = getDoubleInput()
 
-    val allReadings = DataStorage.getAllReadings
-    val results = DataAnalyzer.searchByEnergyRange(allReadings, minEnergy, maxEnergy)
+    val results = DataAnalyzer.searchByEnergyRange(currentData, minEnergy, maxEnergy)
     println(s"\n--- Readings with energy between $minEnergy and $maxEnergy kWh ---")
     EnergyMonitoringView.displayReadings(results)
   }
 
   private def handleSort(): Unit = {
+    if (currentData.isEmpty) {
+      println("\nNo data loaded. Please fetch data from the API first (option 1).")
+      return
+    }
+
     println("\n--- Sort Readings ---")
     println("1. By timestamp (ascending)")
     println("2. By timestamp (descending)")
@@ -182,15 +235,14 @@ object Main extends App {
     print("Enter your choice (1-6): ")
     val choice = StdIn.readLine().trim
 
-    val allReadings = DataStorage.getAllReadings
     val sorted = choice match {
-      case "1" => DataAnalyzer.sortByTimestampAsc(allReadings)
-      case "2" => DataAnalyzer.sortByTimestampDesc(allReadings)
-      case "3" => DataAnalyzer.sortByEnergyAsc(allReadings)
-      case "4" => DataAnalyzer.sortByEnergyDesc(allReadings)
-      case "5" => DataAnalyzer.sortByCapacityAsc(allReadings)
-      case "6" => DataAnalyzer.sortByCapacityDesc(allReadings)
-      case _ => allReadings
+      case "1" => DataAnalyzer.sortByTimestampAsc(currentData)
+      case "2" => DataAnalyzer.sortByTimestampDesc(currentData)
+      case "3" => DataAnalyzer.sortByEnergyAsc(currentData)
+      case "4" => DataAnalyzer.sortByEnergyDesc(currentData)
+      case "5" => DataAnalyzer.sortByCapacityAsc(currentData)
+      case "6" => DataAnalyzer.sortByCapacityDesc(currentData)
+      case _ => currentData
     }
 
     println("\n--- Sorted Readings ---")
@@ -198,57 +250,13 @@ object Main extends App {
   }
 
   private def handleViewSummary(): Unit = {
-    val allReadings = DataStorage.getAllReadings
-    EnergyMonitoringView.displaySummary(allReadings)
-    EnergyMonitoringView.displayBySource(allReadings)
-  }
-
-  private def handleClearData(): Unit = {
-    if (EnergyMonitoringView.confirmAction("Are you sure you want to clear all data?")) {
-      DataStorage.clearData() match {
-        case scala.util.Success(_) =>
-          println("✓ All data has been cleared.")
-        case scala.util.Failure(e) =>
-          println(s"✗ Error clearing data: ${e.getMessage}")
-      }
-    } else {
-      println("Clear operation cancelled.")
+    if (currentData.isEmpty) {
+      println("\nNo data loaded. Please fetch data from the API first (option 1).")
+      return
     }
-  }
 
-  private def handleCommandInput(command: String): Unit = {
-    val parts = command.split("\\s+")
-    parts.headOption match {
-      case Some("add") if parts.length == 4 =>
-        val source = parts(1)
-        val energy = parts(2).toDoubleOption
-        val capacity = parts(3).toDoubleOption
-        (source.toLowerCase, energy, capacity) match {
-          case (src, Some(e), Some(c)) =>
-            EnergySource.fromString(src) match {
-              case Some(energySource) =>
-                val reading = EnergyReading(energySource, e, LocalDateTime.now(), c)
-                DataStorage.addReading(reading) match {
-                  case scala.util.Success(_) =>
-                    println(s"✓ Reading added: ${energySource.name} - ${e} kWh at ${LocalDateTime.now()}")
-                  case scala.util.Failure(err) =>
-                    println(s"✗ Error: ${err.getMessage}")
-                }
-              case None => println("✗ Invalid source.")
-            }
-          case _ => println("✗ Invalid parameters.")
-        }
-
-      case Some("view") if parts.length == 1 =>
-        handleViewAll()
-
-      case Some("summary") if parts.length == 1 =>
-        handleViewSummary()
-
-      case _ =>
-        println("✗ Unknown command or invalid syntax.")
-        println("Type 'help' for available commands.")
-    }
+    EnergyMonitoringView.displaySummary(currentData)
+    EnergyMonitoringView.displayBySource(currentData)
   }
 
   private def getDoubleInput(): Double = {
@@ -256,8 +264,11 @@ object Main extends App {
       StdIn.readLine().trim.toDouble
     } catch {
       case _: Exception =>
-        println("✗ Invalid number. Please enter a valid double value.")
+        println("Invalid number. Please enter a valid double value.")
         getDoubleInput()
     }
   }
 }
+
+// Code by: Ugne Timonyte, Naadiya Saikia, Balazs Fentor
+// AI statement: Claude code was used for ideation mostly

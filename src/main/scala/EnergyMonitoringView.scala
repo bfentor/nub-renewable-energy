@@ -6,14 +6,12 @@ object EnergyMonitoringView {
   private val dateTimeFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
   private val separator = "=" * 100
 
-  // Display header
   def showHeader(): Unit = {
     println(separator)
     println(" " * 30 + "RENEWABLE ENERGY MONITORING SYSTEM")
     println(separator)
   }
 
-  // Display all energy readings in a formatted table
   def displayReadings(readings: List[EnergyReading]): Unit = {
     if (readings.isEmpty) {
       println("No readings available.")
@@ -39,7 +37,6 @@ object EnergyMonitoringView {
     println("-" * 100)
   }
 
-  // Display summary statistics
   def displaySummary(readings: List[EnergyReading]): Unit = {
     if (readings.isEmpty) {
       println("No data available for summary.")
@@ -74,7 +71,6 @@ object EnergyMonitoringView {
     println("\n" + separator)
   }
 
-  // Display readings by source
   def displayBySource(readings: List[EnergyReading]): Unit = {
     println("\n" + separator)
     println(" " * 35 + "ENERGY GENERATION BY SOURCE")
@@ -94,49 +90,43 @@ object EnergyMonitoringView {
     println("\n" + separator)
   }
 
-  // Display menu
   def showMenu(): Unit = {
     println("\n" + separator)
     println("AVAILABLE OPERATIONS:")
     println(separator)
-    println("1. Add new energy reading")
-    println("2. View all readings")
+    println("1. Fetch data from power plant API (by date range)")
+    println("2. View all loaded readings")
     println("3. View readings by source (Solar/Wind/Hydro)")
-    println("4. Filter readings by time period (hourly/daily/weekly/monthly)")
-    println("5. Search readings by energy range")
-    println("6. Sort readings")
-    println("7. View energy analysis summary")
-    println("8. Clear all data")
-    println("9. Exit")
+    println("4. View energy analysis summary")
+    println("5. Exit")
     println(separator)
   }
 
-  // Display help message
   def showHelp(): Unit = {
     println("\n" + separator)
-    println("HELP - SYSTEM COMMANDS")
+    println("HELP - API-BASED RENEWABLE ENERGY MONITORING SYSTEM")
     println(separator)
-    println("Commands:")
-    println("  add <source> <energy> <capacity>  - Add a new reading (e.g., add solar 150.5 500)")
-    println("  view                               - View all readings")
-    println("  view-source <solar|wind|hydro>    - View readings from specific source")
-    println("  filter-hour <timestamp>            - Filter readings by hour")
-    println("  filter-day <yyyy-MM-dd>            - Filter readings by day")
-    println("  filter-week <yyyy-MM-dd>           - Filter readings by week")
-    println("  filter-month <yyyy-MM>             - Filter readings by month")
-    println("  search-range <min> <max>           - Search by energy range (kWh)")
-    println("  sort-time-asc                      - Sort by timestamp (ascending)")
-    println("  sort-time-desc                     - Sort by timestamp (descending)")
-    println("  sort-energy-asc                    - Sort by energy (ascending)")
-    println("  sort-energy-desc                   - Sort by energy (descending)")
-    println("  summary                            - View analysis summary")
-    println("  clear                              - Clear all data (WARNING)")
-    println("  help                               - Show this help message")
-    println("  exit                               - Exit the application")
+    println("This system works exclusively with the power plant's Fingrid API.")
+    println("You must fetch data first before performing any analysis.")
+    println("\nCommands:")
+    println("  fetch <start> <end>            - Fetch data by date range (yyyy-MM-ddTHH:mm:ssZ)")
+    println("  view                            - View all loaded readings")
+    println("  view-source <solar|wind|hydro>  - View readings from specific source")
+    println("  filter-hour <yyyy-MM-dd HH>    - Filter readings by hour")
+    println("  filter-day <yyyy-MM-dd>        - Filter readings by day")
+    println("  filter-week <yyyy-MM-dd>       - Filter readings by week")
+    println("  filter-month <yyyy-MM>         - Filter readings by month")
+    println("  search-range <min> <max>       - Search by energy range (kWh)")
+    println("  sort-time-asc                  - Sort by timestamp (ascending)")
+    println("  sort-time-desc                 - Sort by timestamp (descending)")
+    println("  sort-energy-asc                - Sort by energy (ascending)")
+    println("  sort-energy-desc               - Sort by energy (descending)")
+    println("  summary                        - View analysis summary")
+    println("  help                           - Show this help message")
+    println("  exit                           - Exit the application")
     println(separator)
   }
 
-  // Confirmation prompt
   def confirmAction(message: String): Boolean = {
     print(s"\n$message (yes/no): ")
     scala.io.StdIn.readLine().toLowerCase == "yes"
