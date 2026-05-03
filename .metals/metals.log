@@ -212,3 +212,957 @@
 2026.05.03 15:04:21 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
 2026.05.03 15:04:21 INFO  compiling nub-renewable-energy (1 scala source)
 2026.05.03 15:04:21 INFO  time: compiled nub-renewable-energy in 0.33s
+2026.05.03 15:13:27 INFO  Started: Metals version 1.6.7 in folders 'C:\Users\Naadiya\nub-renewable-energy' for client Visual Studio Code 1.118.1.
+2026.05.03 15:13:27 INFO  Memory monitor started
+2026.05.03 15:13:35 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 15:13:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 15:13:45 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 15:13:46 INFO  Attempting to connect to the build server...
+2026.05.03 15:13:46 INFO  No running Bloop server found, starting one.
+2026.05.03 15:14:43 INFO  Starting compilation server
+2026.05.03 15:14:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Naadiya\nub-renewable-energy\.metals\bsp.trace.json or C:\Users\Naadiya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2026.05.03 15:14:46 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Timeout waiting for 'build/initialize' response
+2026.05.03 15:15:06 WARN  Retrying connection to the build server Bloop
+2026.05.03 15:15:06 INFO  Found a Bloop server running
+2026.05.03 15:15:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Naadiya\nub-renewable-energy\.metals\bsp.trace.json or C:\Users\Naadiya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.13.12\scala-compiler-2.13.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.13.12\scala-reflect-2.13.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\github\java-diff-utils\java-diff-utils\4.12\java-diff-utils-4.12.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline\3.22.0\jline-3.22.0.jar doesn't exist!
+2026.05.03 15:15:06 ERROR Scala instance jar C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar doesn't exist!
+2026.05.03 15:15:06 ERROR C:\usr\lib\jvm\java-26-openjdk release file missing JAVA_VERSION property - using Bloop's JVM version 21.0.5
+2026.05.03 15:15:06 ERROR C:\usr\lib\jvm\java-26-openjdk release file missing JAVA_VERSION property - using Bloop's JVM version 21.0.5
+2026.05.03 15:15:06 ERROR C:\usr\lib\jvm\java-26-openjdk release file missing JAVA_VERSION property - using Bloop's JVM version 21.0.5
+2026.05.03 15:15:06 ERROR C:\usr\lib\jvm\java-26-openjdk release file missing JAVA_VERSION property - using Bloop's JVM version 21.0.5
+2026.05.03 15:15:07 INFO  Attempting to connect to the build server...
+2026.05.03 15:15:07 INFO  Found a Bloop server running
+2026.05.03 15:15:07 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Naadiya\nub-renewable-energy\project\.metals\bsp.trace.json or C:\Users\Naadiya\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2026.05.03 15:15:07 ERROR Scala instance jar C:\home\balika\.sbt\boot\scala-2.12.21\lib\scala-library.jar doesn't exist!
+2026.05.03 15:15:07 ERROR Scala instance jar C:\home\balika\.sbt\boot\scala-2.12.21\lib\scala-reflect.jar doesn't exist!
+2026.05.03 15:15:07 ERROR Scala instance jar C:\home\balika\.sbt\boot\scala-2.12.21\lib\scala-xml_2.12-2.3.0.jar doesn't exist!
+2026.05.03 15:15:07 ERROR Scala instance jar C:\home\balika\.sbt\boot\scala-2.12.21\lib\scala-compiler.jar doesn't exist!
+2026.05.03 15:15:15 ERROR C:\usr\lib\jvm\java-26-openjdk release file missing JAVA_VERSION property - using Bloop's JVM version 21.0.5
+2026.05.03 15:15:15 INFO  time: Connected to build server in 1m28s
+2026.05.03 15:15:15 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.03 15:15:15 INFO  time: Imported build in 0.39s
+2026.05.03 15:15:33 ERROR Running process 'C:\usr\lib\jvm\java-26-openjdk\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\usr\lib\jvm\java-26-openjdk\bin\java" (in directory "C:\usr\lib\jvm\java-26-openjdk"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.javaSourcesProblem$1(ProblemResolver.scala:240)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$findProblem$9(ProblemResolver.scala:326)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:326)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$1(ProblemResolver.scala:66)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:65)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.javaSourcesProblem$1(ProblemResolver.scala:240)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$findProblem$9(ProblemResolver.scala:326)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:326)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$1(ProblemResolver.scala:66)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:65)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 15:15:33 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+2026.05.03 15:16:01 ERROR Running process 'C:\usr\lib\jvm\java-26-openjdk\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\usr\lib\jvm\java-26-openjdk\bin\java" (in directory "C:\usr\lib\jvm\java-26-openjdk"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 15:16:01 ERROR Running process 'C:\usr\lib\jvm\java-26-openjdk\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\usr\lib\jvm\java-26-openjdk\bin\java" (in directory "C:\usr\lib\jvm\java-26-openjdk"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 15:16:01 ERROR Running process 'C:\usr\lib\jvm\java-26-openjdk\bin\java -version' failed
+java.io.IOException: Cannot run program "C:\usr\lib\jvm\java-26-openjdk\bin\java" (in directory "C:\usr\lib\jvm\java-26-openjdk"): CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1170)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.lang.ProcessImpl.create(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:500)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:159)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1126)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1089)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.builds.ShellRunner$.runSync(ShellRunner.scala:153)
+	at scala.meta.internal.metals.JdkVersion$.fromShell(JavaInteractiveSemanticdb.scala:238)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$3(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.JdkVersion$.$anonfun$maybeJdkVersionFromJavaHome$2(JavaInteractiveSemanticdb.scala:229)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.JdkVersion$.maybeJdkVersionFromJavaHome(JavaInteractiveSemanticdb.scala:227)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$5(ProjectMetalsLspService.scala:599)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$3(ProjectMetalsLspService.scala:599)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$getProjectsJavaInfo$1(ProjectMetalsLspService.scala:596)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.ProjectMetalsLspService.getProjectsJavaInfo(ProjectMetalsLspService.scala:595)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$projectInfo$3(ProjectMetalsLspService.scala:589)
+	at scala.meta.internal.metals.doctor.MetalsServiceInfo$ProjectService.getJavaInfo(Doctor.scala:801)
+	at scala.meta.internal.metals.doctor.Doctor.$anonfun$problemResolver$3(Doctor.scala:83)
+	at scala.meta.internal.metals.doctor.ProblemResolver.isWrongJavaRelease(ProblemResolver.scala:358)
+	at scala.meta.internal.metals.doctor.ProblemResolver.findProblem(ProblemResolver.scala:349)
+	at scala.meta.internal.metals.doctor.ProblemResolver.$anonfun$problemMessage$3(ProblemResolver.scala:88)
+	at scala.collection.immutable.List.flatMap(List.scala:283)
+	at scala.meta.internal.metals.doctor.ProblemResolver.problemMessage(ProblemResolver.scala:87)
+	at scala.meta.internal.metals.doctor.Doctor.check(Doctor.scala:114)
+	at scala.meta.internal.metals.MetalsLspService.check(MetalsLspService.scala:1692)
+	at scala.meta.internal.metals.ProjectMetalsLspService.check(ProjectMetalsLspService.scala:894)
+	at scala.meta.internal.metals.ProjectMetalsLspService.$anonfun$connectionProvider$1(ProjectMetalsLspService.scala:197)
+	at scala.meta.internal.metals.Indexer.$anonfun$indexWorkspace$11(Indexer.scala:151)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.indexWorkspace(Indexer.scala:151)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$2(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.meta.internal.metals.TimerProvider.timedThunk(TimerProvider.scala:25)
+	at scala.meta.internal.metals.Indexer.$anonfun$profiledIndexWorkspace$1(Indexer.scala:58)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:691)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:500)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.lang.Thread.run(Thread.java:1583)
+
+2026.05.03 15:16:11 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\2.3.0\scala-parser-combinators_2.13-2.3.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lihaoyi\requests_2.13\0.8.0\requests_2.13-0.8.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\github\cdimascio\dotenv-java\3.2.0\dotenv-java-3.2.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\1.0.0\geny_2.13-1.0.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\2.0.19\sbt-bloop_2.12_1.0-2.0.19-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.12\2.3.3\bloop-config_2.12-2.3.3-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_2.12\2.13.5.2\jsoniter-scala-core_2.12-2.13.5.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.12\0.1.12\unroll-annotation_2.12-0.1.12-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.21\scala-library-2.12.21-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.12.10\sbt-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\main_2.12\1.12.10\main_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\io_2.12\1.10.5\io_2.12-1.10.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\logic_2.12\1.12.10\logic_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\actions_2.12\1.12.10\actions_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\main-settings_2.12\1.12.10\main-settings_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\run_2.12\1.12.10\run_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\command_2.12\1.12.10\command_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\collections_2.12\1.12.10\collections_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\scripted-plugin_2.12\1.12.10\scripted-plugin_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-lm-integration_2.12\1.12.10\zinc-lm-integration_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-logging_2.12\1.12.10\util-logging_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\2.3.0\scala-xml_2.12-2.3.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\launcher-interface\1.6.1\launcher-interface-1.6.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\github\ben-manes\caffeine\caffeine\2.8.5\caffeine-2.8.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\get-coursier\lm-coursier-shaded_2.12\2.1.13\lm-coursier-shaded_2.12-2.1.13-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\logging\log4j\log4j-api\2.25.4\log4j-api-2.25.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\logging\log4j\log4j-core\2.25.4\log4j-core-2.25.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\logging\log4j\log4j-slf4j-impl\2.25.4\log4j-slf4j-impl-2.25.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\librarymanagement-core_2.12\1.12.1\librarymanagement-core_2.12-1.12.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\librarymanagement-ivy_2.12\1.12.1\librarymanagement-ivy_2.12-1.12.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.12.0\compiler-interface-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-compile_2.12\1.12.0\zinc-compile_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-relation_2.12\1.12.10\util-relation_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\completion_2.12\1.12.10\completion_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\task-system_2.12\1.12.10\task-system_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\tasks_2.12\1.12.10\tasks_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\testing_2.12\1.12.10\testing_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-tracking_2.12\1.12.10\util-tracking_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\sjson-new-core_2.12\0.10.1\sjson-new-core_2.12-0.10.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\sjson-new-scalajson_2.12\0.10.1\sjson-new-scalajson_2.12-0.10.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\gigahorse-apache-http_2.12\0.9.4\gigahorse-apache-http_2.12-0.9.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.27.1\jline-terminal-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-classpath_2.12\1.12.0\zinc-classpath_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-apiinfo_2.12\1.12.0\zinc-apiinfo_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc_2.12\1.12.0\zinc_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\core-macros_2.12\1.12.10\core-macros_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-cache_2.12\1.12.10\util-cache_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-control_2.12\1.12.10\util-control_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\protocol_2.12\1.12.10\protocol_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\template-resolver\0.1\template-resolver-0.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-position_2.12\1.12.10\util-position_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-compile-core_2.12\1.12.0\zinc-compile-core_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.12.10\util-interface-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\jline\jline\2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18\jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jni\3.27.1\jline-terminal-jni-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.27.1\jline-native-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lmax\disruptor\3.4.2\disruptor-3.4.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.21\scala-reflect-2.12.21-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.4.1\checker-qual-3.4.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.4.0\error_prone_annotations-2.4.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_2.12\2.14.0\scala-collection-compat_2.12-2.14.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.21\scala-compiler-2.12.21-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\github\mwiede\jsch\2.27.5\jsch-2.27.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\ivy\ivy\2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41\ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.27.1\jline-reader-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-builtins\3.27.1\jline-builtins-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-agent\1.12.10\test-agent-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\shaded-scalajson_2.12\1.0.0-M4\shaded-scalajson_2.12-1.0.0-M4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\shaded-jawn-parser_2.12\1.3.2\shaded-jawn-parser_2.12-1.3.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\gigahorse-core_2.12\0.9.4\gigahorse-core_2.12-0.9.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\shaded-apache-httpclient5\0.9.4\shaded-apache-httpclient5-0.9.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.12\1.12.0\compiler-bridge_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-classfile_2.12\1.12.0\zinc-classfile_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-core_2.12\1.12.0\zinc-core_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-persist_2.12\1.12.0\zinc-persist_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\sjson-new-murmurhash_2.12\0.10.1\sjson-new-murmurhash_2.12-0.10.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\ipcsocket\ipcsocket\1.6.3\ipcsocket-1.6.3-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.12\1.1.2\scala-parser-combinators_2.12-1.1.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\openhft\zero-allocation-hashing\0.16\zero-allocation-hashing-0.16-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\2.4.1\jansi-2.4.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-style\3.27.1\jline-style-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.12\0.7.1\ssl-config-core_2.12-0.7.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-persist-core-assembly\1.12.0\zinc-persist-core-assembly-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbinary_2.12\0.5.1\sbinary_2.12-0.5.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.12.0\jna-5.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.0\jna-platform-5.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.5\config-1.4.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.12\scala-library-2.13.12-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.13\2.3.0\scala-parser-combinators_2.13-2.3.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lihaoyi\requests_2.13\0.8.0\requests_2.13-0.8.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\github\cdimascio\dotenv-java\3.2.0\dotenv-java-3.2.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lihaoyi\geny_2.13\1.0.0\geny_2.13-1.0.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\ch\epfl\scala\sbt-bloop_2.12_1.0\2.0.19\sbt-bloop_2.12_1.0-2.0.19-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\ch\epfl\scala\bloop-config_2.12\2.3.3\bloop-config_2.12-2.3.3-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\github\plokhotnyuk\jsoniter-scala\jsoniter-scala-core_2.12\2.13.5.2\jsoniter-scala-core_2.12-2.13.5.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lihaoyi\unroll-annotation_2.12\0.1.12\unroll-annotation_2.12-0.1.12-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.21\scala-library-2.12.21-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbt\1.12.10\sbt-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\main_2.12\1.12.10\main_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\io_2.12\1.10.5\io_2.12-1.10.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\logic_2.12\1.12.10\logic_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\actions_2.12\1.12.10\actions_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\main-settings_2.12\1.12.10\main-settings_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\run_2.12\1.12.10\run_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\command_2.12\1.12.10\command_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\collections_2.12\1.12.10\collections_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\scripted-plugin_2.12\1.12.10\scripted-plugin_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-lm-integration_2.12\1.12.10\zinc-lm-integration_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-logging_2.12\1.12.10\util-logging_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-xml_2.12\2.3.0\scala-xml_2.12-2.3.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\launcher-interface\1.6.1\launcher-interface-1.6.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\github\ben-manes\caffeine\caffeine\2.8.5\caffeine-2.8.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\io\get-coursier\lm-coursier-shaded_2.12\2.1.13\lm-coursier-shaded_2.12-2.1.13-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\logging\log4j\log4j-api\2.25.4\log4j-api-2.25.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\logging\log4j\log4j-core\2.25.4\log4j-core-2.25.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\apache\logging\log4j\log4j-slf4j-impl\2.25.4\log4j-slf4j-impl-2.25.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\librarymanagement-core_2.12\1.12.1\librarymanagement-core_2.12-1.12.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\librarymanagement-ivy_2.12\1.12.1\librarymanagement-ivy_2.12-1.12.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-interface\1.12.0\compiler-interface-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-compile_2.12\1.12.0\zinc-compile_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\swoval\file-tree-views\2.1.12\file-tree-views-2.1.12-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-relation_2.12\1.12.10\util-relation_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\completion_2.12\1.12.10\completion_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\task-system_2.12\1.12.10\task-system_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\tasks_2.12\1.12.10\tasks_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\testing_2.12\1.12.10\testing_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-tracking_2.12\1.12.10\util-tracking_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\sjson-new-core_2.12\0.10.1\sjson-new-core_2.12-0.10.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\sjson-new-scalajson_2.12\0.10.1\sjson-new-scalajson_2.12-0.10.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\gigahorse-apache-http_2.12\0.9.4\gigahorse-apache-http_2.12-0.9.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal\3.27.1\jline-terminal-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-classpath_2.12\1.12.0\zinc-classpath_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-apiinfo_2.12\1.12.0\zinc-apiinfo_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc_2.12\1.12.0\zinc_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\core-macros_2.12\1.12.10\core-macros_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-cache_2.12\1.12.10\util-cache_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-control_2.12\1.12.10\util-control_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\protocol_2.12\1.12.10\protocol_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\template-resolver\0.1\template-resolver-0.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-position_2.12\1.12.10\util-position_2.12-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-compile-core_2.12\1.12.0\zinc-compile-core_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\util-interface\1.12.10\util-interface-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\jline\jline\2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18\jline-2.14.7-sbt-9a88bc413e2b34a4580c001c654d1a7f4f65bf18-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-terminal-jni\3.27.1\jline-terminal-jni-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-native\3.27.1\jline-native-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\lmax\disruptor\3.4.2\disruptor-3.4.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.21\scala-reflect-2.12.21-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\checkerframework\checker-qual\3.4.1\checker-qual-3.4.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\google\errorprone\error_prone_annotations\2.4.0\error_prone_annotations-2.4.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-collection-compat_2.12\2.14.0\scala-collection-compat_2.12-2.14.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-compiler\2.12.21\scala-compiler-2.12.21-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\github\mwiede\jsch\2.27.5\jsch-2.27.5-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\ivy\ivy\2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41\ivy-2.3.0-sbt-77cc781d727b367d3761f097d89f5a4762771d41-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-reader\3.27.1\jline-reader-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-builtins\3.27.1\jline-builtins-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-agent\1.12.10\test-agent-1.12.10-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\test-interface\1.0\test-interface-1.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\shaded-scalajson_2.12\1.0.0-M4\shaded-scalajson_2.12-1.0.0-M4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\shaded-jawn-parser_2.12\1.3.2\shaded-jawn-parser_2.12-1.3.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\gigahorse-core_2.12\0.9.4\gigahorse-core_2.12-0.9.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\shaded-apache-httpclient5\0.9.4\shaded-apache-httpclient5-0.9.4-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\compiler-bridge_2.12\1.12.0\compiler-bridge_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-classfile_2.12\1.12.0\zinc-classfile_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-core_2.12\1.12.0\zinc-core_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-persist_2.12\1.12.0\zinc-persist_2.12-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\eed3si9n\sjson-new-murmurhash_2.12\0.10.1\sjson-new-murmurhash_2.12-0.10.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\ipcsocket\ipcsocket\1.6.3\ipcsocket-1.6.3-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.12\1.1.2\scala-parser-combinators_2.12-1.1.2-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\openhft\zero-allocation-hashing\0.16\zero-allocation-hashing-0.16-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\fusesource\jansi\jansi\2.4.1\jansi-2.4.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\jline\jline-style\3.27.1\jline-style-3.27.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.12\0.7.1\ssl-config-core_2.12-0.7.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\zinc-persist-core-assembly\1.12.0\zinc-persist-core-assembly-1.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\org\scala-sbt\sbinary_2.12\0.5.1\sbinary_2.12-0.5.1-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna\5.12.0\jna-5.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\net\java\dev\jna\jna-platform\5.12.0\jna-platform-5.12.0-sources.jar
+2026.05.03 15:16:14 WARN  unexpected dependency with absolute path: C:\home\balika\.cache\coursier\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.4.5\config-1.4.5-sources.jar
+2026.05.03 15:16:14 INFO  time: indexed workspace in 59s
+2026.05.03 15:16:15 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 15:16:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:16:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:16:15 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 15:16:24 INFO  time: code lens generation in 8.96s
+2026.05.03 15:16:24 INFO  time: code lens generation in 8.22s
+2026.05.03 15:16:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:25:32 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:25:32 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:27:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:27:58 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:27:59 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:46 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:28:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 03, 2026 3:28:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 03, 2026 3:28:48 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 03, 2026 3:28:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 03, 2026 3:28:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 03, 2026 3:28:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 03, 2026 3:28:51 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.03 15:28:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:54 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 15:28:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:28:54 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:08 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:39:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 59
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:39:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:13 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:17 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 15:39:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:39:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:12 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:12 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:49:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:54:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 142
+May 03, 2026 3:54:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 141
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:30 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:31 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:31 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:54:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 167
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:34 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:35 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:54:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 186
+2026.05.03 15:54:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:37 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:36 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:37 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:38 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:38 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:38 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:38 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:38 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:39 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:39 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:40 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:40 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:39 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:40 WARN  no build target for: C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala
+2026.05.03 15:54:40 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:42 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:42 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:54:43 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:26 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:29 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:48 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:50 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:52 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:55 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:55:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 306
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:56 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:57 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:55:57 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:03 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:09 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:56:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 360
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:10 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:11 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:56:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 400
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:15 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:16 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:17 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:18 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:19 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:20 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+May 03, 2026 3:56:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 472
+2026.05.03 15:56:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:21 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:22 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:23 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:24 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 15:56:28 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 16:07:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 16:07:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 16:07:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
