@@ -1,3 +1,6 @@
+//By Balazs Fentor, Ugne Timonyte, and Naadiya Saikia
+//No AI was used in the creation of this code.
+
 import requests._
 import io.github.cdimascio.dotenv.Dotenv
 import AnalysisEngine._
