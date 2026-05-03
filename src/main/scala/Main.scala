@@ -15,11 +15,13 @@ object Main extends App {
   // Wind data example. Date not yet implemented
   println(getData("2026-05-03", "246"))
 
-  object REPSMain {
-    
-  }
+  
 
   def main(args: Array[String]): Unit = {
-    // You can call getData here with different parameters if needed
+    while (true) {
+      val input = scala.io.StdIn.readline("Enter input, 1. View power plant status 2. Enter new data 3. Data Analysis! 4. Filter and search records 5. System Alert Check! 6. Exit :(   :")
+
+
+    }
   }
 }
