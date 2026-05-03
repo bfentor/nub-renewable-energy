@@ -1,6 +1,6 @@
 import requests._
 import io.github.cdimascio.dotenv.Dotenv
-import AnalysisEngine.testFunc
+import AnalysisEngine._
 
 object Main extends App {
   private val env = Dotenv.load()
@@ -15,7 +15,7 @@ object Main extends App {
 
   // Wind data example. Date not yet implemented
   println(getData("2026-05-03", "246"))
-  println(testFunc("This is a test"))
+  // println(testFunc("This is a test"))
   
 
   // def main(): Unit = {
