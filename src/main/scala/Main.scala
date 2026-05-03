@@ -1,5 +1,6 @@
 import requests._
 import io.github.cdimascio.dotenv.Dotenv
+import AnalysisEngine.testFunc
 
 object Main extends App {
   private val env = Dotenv.load()
@@ -14,7 +15,7 @@ object Main extends App {
 
   // Wind data example. Date not yet implemented
   println(getData("2026-05-03", "246"))
-
+  println(testFunc("This is a test"))
 
   //alertsystem
   def checkThresholds(data: String): Unit = { 
@@ -51,6 +52,6 @@ object Main extends App {
         case _ => println("Invalid input, please try again.")
       }
 
-    }
-  }
+  //   }
+  // }
 }
