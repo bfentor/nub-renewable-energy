@@ -1811,3 +1811,35 @@ WARNING: Unmatched cancel notification for request id 13
 2026.05.08 10:20:13 INFO  time: compiled nub-renewable-energy in 0.5s[0m
 2026.05.08 10:20:13 INFO  compiling nub-renewable-energy (1 scala source)[0m
 2026.05.08 10:20:13 INFO  time: compiled nub-renewable-energy in 64ms[0m
+2026.05.08 10:21:03 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:11 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:11 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:11 INFO  time: compiled nub-renewable-energy in 68ms[0m
+2026.05.08 10:21:16 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:16 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:16 INFO  time: compiled nub-renewable-energy in 54ms[0m
+2026.05.08 10:21:22 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:22 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:22 INFO  time: compiled nub-renewable-energy in 69ms[0m
+2026.05.08 10:21:26 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:26 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:26 INFO  time: compiled nub-renewable-energy in 0.52s[0m
+2026.05.08 10:21:26 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:26 INFO  time: compiled nub-renewable-energy in 52ms[0m
+2026.05.08 10:21:27 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:27 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:27 INFO  time: compiled nub-renewable-energy in 0.15s[0m
+2026.05.08 10:21:27 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:27 INFO  time: compiled nub-renewable-energy in 50ms[0m
+2026.05.08 10:21:29 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:29 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:29 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:29 INFO  time: compiled nub-renewable-energy in 0.48s[0m
+2026.05.08 10:21:29 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:29 INFO  time: compiled nub-renewable-energy in 48ms[0m
+2026.05.08 10:21:33 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:33 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:33 INFO  time: compiled nub-renewable-energy in 0.48s[0m

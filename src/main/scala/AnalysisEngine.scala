@@ -17,11 +17,15 @@ object AnalysisEngine {
         }
     }
 
-    def mode(data: List[Double]): Double = {
-        if (data.isEmpty) return 0.0
-        val frequencyMap = data.groupBy(identity).mapValues(_.length)
-        frequencyMap.maxBy(_._2)._1
+  def mode(data: List[Double]): Option[Double] = {
+    if (data.isEmpty) None
+    else {
+      val grouped = data.groupBy(identity).mapValues(_.length)
+      val maxCount = grouped.values.max
+      val modes = grouped.filter(_._2 == maxCount).keys.toList
+      if (modes.nonEmpty) Some(modes.head) else None
     }
+  }
 
     // Difference between lowest and highest energy value
   def range(data: List[Double]): Double = {
