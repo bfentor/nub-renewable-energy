@@ -1166,3 +1166,680 @@ WARNING: Unmatched cancel notification for request id 472
 2026.05.03 16:07:14 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
 2026.05.03 16:07:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
 2026.05.03 16:07:25 INFO  no build target found for C:\Users\Naadiya\nub-renewable-energy\src\main\scala\Main.scala. Using presentation compiler with project's scala-library version: 2.13.18
+2026.05.03 22:25:23 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.
+2026.05.03 22:25:23 INFO  Memory monitor started
+2026.05.03 22:25:23 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 22:25:23 WARN  no build target for: /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala
+2026.05.03 22:25:23 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:25:23 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:88)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:164)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$debugDiscovery$3(MetalsLspService.scala:1594)
+	at scala.meta.internal.metals.MetalsLspService.afterCompilationFinished(MetalsLspService.scala:1589)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1594)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1157)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:184)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1516)
+
+2026.05.03 22:25:23 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:25:23 INFO  Attempting to connect to the build server...
+2026.05.03 22:25:23 INFO  Found a Bloop server running
+2026.05.03 22:25:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.03 22:25:23 INFO  Attempting to connect to the build server...
+2026.05.03 22:25:23 INFO  Found a Bloop server running
+2026.05.03 22:25:23 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.03 22:25:23 INFO  time: Connected to build server in 0.31s
+2026.05.03 22:25:23 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.03 22:25:24 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:25:26 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+2026.05.03 22:25:27 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:25:27 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:25:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/dap-server.trace.json or /home/balika/.cache/metals/dap-server.trace.json
+2026.05.03 22:25:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/dap-client.trace.json or /home/balika/.cache/metals/dap-client.trace.json
+2026.05.03 22:25:27 INFO  Starting debug proxy for [Main]
+2026.05.03 22:25:27 INFO  Loaded expression compiler in 0 milliseconds
+2026.05.03 22:25:27 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 22:25:28 INFO  Loaded all sources and classes in 854 milliseconds
+2026.05.03 22:25:28 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.05.03 22:25:28 INFO  Trying to attach to remote debuggee VM localhost:55843 .
+2026.05.03 22:25:28 INFO  Attaching to debuggee VM succeeded.
+2026.05.03 22:25:27 INFO  time: indexed workspace in 4.16s
+2026.05.03 22:25:28 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+May 03, 2026 10:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2026.05.03 22:33:22 INFO  Closing debug server tcp://0.0.0.0:34955
+2026.05.03 22:33:22 INFO  Canceling debug proxy for [Main]
+2026.05.03 22:33:22 INFO  Shutting down server
+2026.05.03 22:33:22 INFO  Memory monitor stopped
+2026.05.03 22:33:22 INFO  shutting down Metals
+2026.05.03 22:33:22 INFO  Shut down connection with build server.
+2026.05.03 22:33:22 INFO  Shut down connection with build server.
+2026.05.03 22:33:22 INFO  Exiting server
+2026.05.03 22:33:32 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.
+2026.05.03 22:33:32 INFO  Memory monitor started
+2026.05.03 22:33:32 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 22:33:32 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:33:34 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:33:34 WARN  no build target for: /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala
+2026.05.03 22:33:34 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$BuildTargetNotFoundForPathException: No build target could be found for the path: /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala
+	at scala.meta.internal.metals.debug.DebugDiscovery.validate(DebugDiscovery.scala:88)
+	at scala.meta.internal.metals.debug.DebugDiscovery.debugDiscovery(DebugDiscovery.scala:164)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$debugDiscovery$3(MetalsLspService.scala:1594)
+	at scala.meta.internal.metals.MetalsLspService.afterCompilationFinished(MetalsLspService.scala:1589)
+	at scala.meta.internal.metals.MetalsLspService.debugDiscovery(MetalsLspService.scala:1594)
+	at scala.meta.internal.metals.WorkspaceLspService.executeCommand(WorkspaceLspService.scala:1157)
+	at scala.meta.metals.lsp.DelegatingScalaService.executeCommand(DelegatingScalaService.scala:184)
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.lang.reflect.Method.invoke(Method.java:565)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$recursiveFindRpcMethods$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:128)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:265)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:195)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:189)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:97)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:97)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:330)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.lang.Thread.run(Thread.java:1516)
+
+2026.05.03 22:33:34 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:33:34 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:33:34 INFO  Attempting to connect to the build server...
+2026.05.03 22:33:34 INFO  Found a Bloop server running
+2026.05.03 22:33:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.03 22:33:34 INFO  Attempting to connect to the build server...
+2026.05.03 22:33:34 INFO  Found a Bloop server running
+2026.05.03 22:33:34 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.03 22:33:34 INFO  time: Connected to build server in 0.3s
+2026.05.03 22:33:34 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.03 22:33:34 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 22:33:36 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+2026.05.03 22:33:37 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 22:33:37 INFO  time: indexed workspace in 3.41s
+2026.05.03 22:33:38 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:33:40 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:33:40 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:33:40 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:33:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/dap-server.trace.json or /home/balika/.cache/metals/dap-server.trace.json
+2026.05.03 22:33:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/dap-client.trace.json or /home/balika/.cache/metals/dap-client.trace.json
+2026.05.03 22:33:41 INFO  Starting debug proxy for [Main]
+2026.05.03 22:33:40 INFO  Loaded expression compiler in 1 millisecond
+2026.05.03 22:33:42 INFO  Loaded all sources and classes in 935 milliseconds
+2026.05.03 22:33:42 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.05.03 22:33:42 INFO  Trying to attach to remote debuggee VM localhost:40097 .
+2026.05.03 22:33:42 INFO  Attaching to debuggee VM succeeded.
+2026.05.03 22:34:13 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:34:13 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:34:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/dap-server.trace.json or /home/balika/.cache/metals/dap-server.trace.json
+2026.05.03 22:34:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/dap-client.trace.json or /home/balika/.cache/metals/dap-client.trace.json
+2026.05.03 22:34:13 INFO  Starting debug proxy for [Main]
+2026.05.03 22:34:13 INFO  Loaded expression compiler in 0 milliseconds
+2026.05.03 22:34:13 INFO  Loaded all sources and classes in 406 milliseconds
+2026.05.03 22:34:13 INFO  Initialized Scala 3 decoder in 0 milliseconds
+2026.05.03 22:34:13 INFO  Trying to attach to remote debuggee VM localhost:46079 .
+2026.05.03 22:34:13 INFO  Attaching to debuggee VM succeeded.
+2026.05.03 22:34:16 INFO  Closing debug server tcp://0.0.0.0:35583
+2026.05.03 22:34:16 INFO  Canceling debug proxy for [Main]
+2026.05.03 22:34:16 INFO  Canceling debug proxy for [Main]
+2026.05.03 22:34:16 INFO  Closing debug server tcp://0.0.0.0:44105
+May 03, 2026 10:48:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+2026.05.03 22:49:00 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:49:00 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:49:00 INFO  time: compiled nub-renewable-energy in 0.15s
+2026.05.03 22:49:12 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:49:12 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:49:12 INFO  time: compiled nub-renewable-energy in 0.64s
+2026.05.03 22:49:31 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:49:31 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:49:31 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 22:49:34 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:49:34 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:49:34 INFO  time: compiled nub-renewable-energy in 0.5s
+2026.05.03 22:49:35 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:49:35 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:49:35 INFO  time: compiled nub-renewable-energy in 0.21s
+2026.05.03 22:49:36 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:49:36 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:49:36 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 22:51:46 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:51:46 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:51:46 INFO  time: compiled nub-renewable-energy in 0.12s
+2026.05.03 22:53:10 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:10 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:10 INFO  time: compiled nub-renewable-energy in 0.13s
+2026.05.03 22:53:12 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:12 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:12 INFO  time: compiled nub-renewable-energy in 0.58s
+2026.05.03 22:53:19 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:19 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:19 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 22:53:22 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:22 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:22 INFO  time: compiled nub-renewable-energy in 0.45s
+2026.05.03 22:53:27 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:27 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:27 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 22:53:30 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:30 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:30 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 22:53:38 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:38 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:38 INFO  time: compiled nub-renewable-energy in 0.49s
+2026.05.03 22:53:39 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:39 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:39 INFO  time: compiled nub-renewable-energy in 0.48s
+2026.05.03 22:53:41 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:53:41 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:53:41 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 22:58:22 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:58:22 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:58:22 INFO  time: compiled nub-renewable-energy in 0.58s
+2026.05.03 22:58:25 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:58:25 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:58:25 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 22:58:27 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:58:27 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:58:27 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 22:59:40 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:59:40 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:59:40 INFO  time: compiled nub-renewable-energy in 0.54s
+2026.05.03 22:59:47 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 22:59:47 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 22:59:47 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 23:00:01 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:01 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:01 INFO  time: compiled nub-renewable-energy in 0.48s
+2026.05.03 23:00:05 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:05 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:05 INFO  time: compiled nub-renewable-energy in 0.46s
+2026.05.03 23:00:06 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:06 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:06 INFO  time: compiled nub-renewable-energy in 0.25s
+2026.05.03 23:00:08 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:08 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:08 INFO  time: compiled nub-renewable-energy in 0.43s
+2026.05.03 23:00:19 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:19 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:19 INFO  time: compiled nub-renewable-energy in 0.46s
+2026.05.03 23:00:25 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:25 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:25 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 23:00:31 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:00:31 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:00:31 INFO  time: compiled nub-renewable-energy in 0.43s
+2026.05.03 23:04:26 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:04:26 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:04:26 INFO  time: compiled nub-renewable-energy in 0.56s
+2026.05.03 23:07:49 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:07:49 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:07:49 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 23:11:08 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:11:08 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:11:08 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 23:11:10 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:11:10 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:11:10 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 23:12:07 INFO  Shutting down server
+2026.05.03 23:12:07 INFO  Memory monitor stopped
+2026.05.03 23:12:07 INFO  shutting down Metals
+2026.05.03 23:12:07 INFO  Shut down connection with build server.
+2026.05.03 23:12:07 INFO  Shut down connection with build server.
+2026.05.03 23:12:07 INFO  Exiting server
+2026.05.03 23:12:26 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.
+2026.05.03 23:12:26 INFO  Memory monitor started
+2026.05.03 23:12:26 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 23:12:26 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/EnergyDataAPI.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 23:12:27 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/EnergyDataAPI.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.03 23:12:27 INFO  Attempting to connect to the build server...
+2026.05.03 23:12:27 INFO  Found a Bloop server running
+2026.05.03 23:12:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.03 23:12:27 INFO  Attempting to connect to the build server...
+2026.05.03 23:12:27 INFO  Found a Bloop server running
+May 03, 2026 11:12:27 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.03 23:12:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.03 23:12:27 INFO  time: Connected to build server in 0.31s
+2026.05.03 23:12:28 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.03 23:12:28 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+May 03, 2026 11:12:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+May 03, 2026 11:12:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+May 03, 2026 11:12:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2026.05.03 23:12:29 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.03 23:12:29 INFO  time: indexed workspace in 2.25s
+2026.05.03 23:12:30 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:13:28 INFO  Created report: Optional[file:///home/balika/Documents/University/Year%202/Semester%202/Introduction%20to%20Functional%20Programming/Project/nub-renewable-energy/src/main/scala/EnergyDataAPI.scala]
+2026.05.03 23:13:28 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/.reports/metals-full/2026-05-03/r_empty-definition_(nub-renewable-energy)_23-13-28-854.md")
+2026.05.03 23:13:30 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:13:30 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:13:30 INFO  time: compiled nub-renewable-energy in 0.46s
+May 03, 2026 11:14:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 77
+2026.05.03 23:14:40 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:14:40 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:14:40 INFO  time: compiled nub-renewable-energy in 0.13s
+2026.05.03 23:14:46 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:14:46 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:14:46 INFO  time: compiled nub-renewable-energy in 94ms
+2026.05.03 23:14:55 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:15:07 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:15:07 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:15:07 INFO  time: compiled nub-renewable-energy in 0.57s
+2026.05.03 23:15:11 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:15:11 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:15:11 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:15:48 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:15:48 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:15:48 INFO  time: compiled nub-renewable-energy in 0.64s
+2026.05.03 23:15:50 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:15:50 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:15:50 INFO  time: compiled nub-renewable-energy in 0.51s
+2026.05.03 23:15:53 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:15:53 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:15:53 INFO  time: compiled nub-renewable-energy in 0.57s
+2026.05.03 23:25:16 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:25:16 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:25:16 INFO  time: compiled nub-renewable-energy in 0.71s
+2026.05.03 23:25:18 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:25:18 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:25:18 INFO  time: compiled nub-renewable-energy in 0.24s
+2026.05.03 23:25:21 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:25:21 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:25:21 INFO  time: compiled nub-renewable-energy in 0.64s
+2026.05.03 23:25:24 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:25:24 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:25:24 INFO  time: compiled nub-renewable-energy in 0.5s
+2026.05.03 23:25:36 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:25:36 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:25:36 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 23:25:40 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:25:40 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:25:40 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 23:26:18 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:18 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:18 INFO  time: compiled nub-renewable-energy in 0.59s
+2026.05.03 23:26:30 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:30 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:30 INFO  time: compiled nub-renewable-energy in 0.49s
+2026.05.03 23:26:38 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:38 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:38 INFO  time: compiled nub-renewable-energy in 0.46s
+2026.05.03 23:26:48 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:48 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:48 INFO  time: compiled nub-renewable-energy in 0.51s
+2026.05.03 23:26:50 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:50 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:50 INFO  time: compiled nub-renewable-energy in 0.5s
+2026.05.03 23:26:51 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:51 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:51 INFO  time: compiled nub-renewable-energy in 0.48s
+2026.05.03 23:26:53 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:53 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:53 INFO  time: compiled nub-renewable-energy in 0.19s
+2026.05.03 23:26:54 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:54 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:54 INFO  time: compiled nub-renewable-energy in 0.5s
+2026.05.03 23:26:58 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:26:58 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:26:58 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 23:27:00 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:00 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:00 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 23:27:02 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:02 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:02 INFO  time: compiled nub-renewable-energy in 0.5s
+2026.05.03 23:27:09 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:09 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:09 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 23:27:11 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:11 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:12 WARN  Could not load snapshot text for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/DataAnalyzer.scala
+2026.05.03 23:27:11 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 23:27:13 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:13 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:13 INFO  time: compiled nub-renewable-energy in 0.23s
+2026.05.03 23:27:15 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:15 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:15 INFO  time: compiled nub-renewable-energy in 0.49s
+2026.05.03 23:27:17 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:17 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:17 INFO  time: compiled nub-renewable-energy in 0.51s
+2026.05.03 23:27:19 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:19 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:19 INFO  time: compiled nub-renewable-energy in 0.2s
+2026.05.03 23:27:20 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:20 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:20 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 23:27:22 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:22 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:22 INFO  time: compiled nub-renewable-energy in 0.28s
+2026.05.03 23:27:23 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:23 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:23 INFO  time: compiled nub-renewable-energy in 0.5s
+2026.05.03 23:27:26 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:26 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:26 INFO  time: compiled nub-renewable-energy in 0.54s
+2026.05.03 23:27:30 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:30 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:30 INFO  time: compiled nub-renewable-energy in 0.51s
+2026.05.03 23:27:33 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:33 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:33 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 23:27:38 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:38 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:38 INFO  time: compiled nub-renewable-energy in 0.54s
+2026.05.03 23:27:39 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:39 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:39 INFO  time: compiled nub-renewable-energy in 0.24s
+2026.05.03 23:27:48 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:48 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:48 INFO  time: compiled nub-renewable-energy in 0.56s
+2026.05.03 23:27:50 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:50 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:50 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 23:27:52 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:52 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:52 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 23:27:55 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:27:55 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:27:55 INFO  time: compiled nub-renewable-energy in 0.56s
+2026.05.03 23:28:07 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:07 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:07 INFO  time: compiled nub-renewable-energy in 0.49s
+2026.05.03 23:28:09 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:09 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:09 INFO  time: compiled nub-renewable-energy in 64ms
+2026.05.03 23:28:09 WARN  Could not load snapshot text for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/EnergySource.scala
+2026.05.03 23:28:10 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:12 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:12 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:12 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 23:28:14 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:14 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:14 INFO  time: compiled nub-renewable-energy in 0.47s
+May 03, 2026 11:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1417
+2026.05.03 23:28:18 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:18 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:18 INFO  time: compiled nub-renewable-energy in 0.47s
+2026.05.03 23:28:29 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:29 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:29 INFO  time: compiled nub-renewable-energy in 0.33s
+2026.05.03 23:28:38 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:38 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:38 INFO  time: compiled nub-renewable-energy in 0.36s
+2026.05.03 23:28:42 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:42 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:42 INFO  time: compiled nub-renewable-energy in 0.44s
+2026.05.03 23:28:44 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:44 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:44 INFO  time: compiled nub-renewable-energy in 0.38s
+2026.05.03 23:28:45 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:45 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:45 INFO  time: compiled nub-renewable-energy in 0.15s
+2026.05.03 23:28:46 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:28:46 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:28:46 INFO  time: compiled nub-renewable-energy in 0.52s
+2026.05.03 23:31:38 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:31:38 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:31:38 INFO  time: compiled nub-renewable-energy in 0.59s
+2026.05.03 23:31:42 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:31:42 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:31:42 INFO  time: compiled nub-renewable-energy in 0.58s
+2026.05.03 23:31:45 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:31:45 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:31:45 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 23:31:48 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:31:48 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:31:48 INFO  time: compiled nub-renewable-energy in 0.58s
+May 03, 2026 11:32:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1831
+May 03, 2026 11:32:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1896
+2026.05.03 23:32:48 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:32:48 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:32:48 INFO  time: compiled nub-renewable-energy in 0.62s
+2026.05.03 23:32:54 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:32:54 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:32:54 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:33:54 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:33:54 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:33:54 INFO  time: compiled nub-renewable-energy in 0.7s
+2026.05.03 23:33:58 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:33:58 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:33:58 INFO  time: compiled nub-renewable-energy in 0.56s
+2026.05.03 23:34:11 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:11 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:11 INFO  time: compiled nub-renewable-energy in 0.57s
+2026.05.03 23:34:15 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:15 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:15 INFO  time: compiled nub-renewable-energy in 0.54s
+2026.05.03 23:34:19 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:19 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:19 INFO  time: compiled nub-renewable-energy in 0.59s
+2026.05.03 23:34:23 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:23 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:23 INFO  time: compiled nub-renewable-energy in 0.59s
+2026.05.03 23:34:28 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:28 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:28 INFO  time: compiled nub-renewable-energy in 0.57s
+May 03, 2026 11:34:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2120
+2026.05.03 23:34:29 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:29 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:29 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:34:34 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:34 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:34 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 23:34:37 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:37 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:37 INFO  time: compiled nub-renewable-energy in 0.54s
+2026.05.03 23:34:43 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:43 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:43 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:34:46 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:46 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:46 INFO  time: compiled nub-renewable-energy in 0.53s
+2026.05.03 23:34:52 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:52 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:52 INFO  time: compiled nub-renewable-energy in 0.73s
+2026.05.03 23:34:56 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:34:56 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:34:56 INFO  time: compiled nub-renewable-energy in 0.57s
+May 03, 2026 11:34:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2292
+2026.05.03 23:35:00 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:35:00 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:35:00 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 23:35:06 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:35:06 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:35:06 INFO  time: compiled nub-renewable-energy in 0.55s
+2026.05.03 23:35:19 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:35:19 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:35:19 INFO  time: compiled nub-renewable-energy in 0.56s
+2026.05.03 23:35:29 INFO  Created report: Optional[file:///home/balika/Documents/University/Year%202/Semester%202/Introduction%20to%20Functional%20Programming/Project/nub-renewable-energy/src/main/scala/Main.scala]
+2026.05.03 23:35:29 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/.reports/metals-full/2026-05-03/r_empty-definition_(nub-renewable-energy)_23-35-29-699.md")
+2026.05.03 23:35:35 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:35:35 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:35:35 INFO  time: compiled nub-renewable-energy in 0.57s
+2026.05.03 23:36:21 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:36:21 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:36:21 INFO  time: compiled nub-renewable-energy in 0.64s
+May 03, 2026 11:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2526
+May 03, 2026 11:36:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2593
+May 03, 2026 11:36:29 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 03, 2026 11:36:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/.reports/metals-full/2026-05-03/r_compiler-error_(nub-renewable-energy)_23-36-29-976.md
+May 03, 2026 11:36:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2619
+May 03, 2026 11:36:33 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+May 03, 2026 11:36:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/.reports/metals-full/2026-05-03/r_compiler-error_(nub-renewable-energy)_23-36-33-578.md
+2026.05.03 23:36:37 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:36:37 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:36:37 INFO  time: compiled nub-renewable-energy in 0.57s
+2026.05.03 23:38:37 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:38:37 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:38:37 INFO  time: compiled nub-renewable-energy in 0.63s
+2026.05.03 23:38:39 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:38:39 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:38:39 INFO  time: compiled nub-renewable-energy in 0.62s
+2026.05.03 23:39:22 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:39:22 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:39:22 INFO  time: compiled nub-renewable-energy in 0.72s
+2026.05.03 23:40:28 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:40:28 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:40:28 INFO  time: compiled nub-renewable-energy in 0.68s
+2026.05.03 23:40:31 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:40:31 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:40:31 INFO  Created report: Optional[file:///home/balika/Documents/University/Year%202/Semester%202/Introduction%20to%20Functional%20Programming/Project/nub-renewable-energy/src/main/scala/Main.scala]
+2026.05.03 23:40:31 INFO  empty definition using pc, found symbol in pc:  (full report at: "/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/.reports/metals-full/2026-05-03/r_empty-definition_(nub-renewable-energy)_23-40-31-685.md")
+2026.05.03 23:40:31 INFO  time: compiled nub-renewable-energy in 0.67s
+2026.05.03 23:40:34 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:40:34 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:40:34 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:42:28 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:42:28 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:42:28 INFO  time: compiled nub-renewable-energy in 0.72s
+May 03, 2026 11:42:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3015
+2026.05.03 23:42:32 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.03 23:42:32 INFO  compiling nub-renewable-energy (1 scala source)
+2026.05.03 23:42:32 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:57:41 INFO  Shutting down server
+2026.05.03 23:57:41 INFO  Memory monitor stopped
+2026.05.03 23:57:41 INFO  shutting down Metals
+2026.05.03 23:57:41 INFO  Shut down connection with build server.
+2026.05.03 23:57:41 INFO  Shut down connection with build server.
+2026.05.03 23:57:41 INFO  Exiting server
+2026.05.04 15:15:02 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.
+2026.05.04 15:15:02 INFO  Memory monitor started
+2026.05.04 15:15:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.04 15:15:02 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.04 15:15:04 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.04 15:15:04 INFO  Attempting to connect to the build server...
+2026.05.04 15:15:04 INFO  Found a Bloop server running
+2026.05.04 15:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.04 15:15:04 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.04 15:15:04 INFO  Attempting to connect to the build server...
+2026.05.04 15:15:04 INFO  Found a Bloop server running
+2026.05.04 15:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.04 15:15:04 INFO  time: Connected to build server in 0.34s
+2026.05.04 15:15:04 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.04 15:15:04 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+May 04, 2026 3:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+May 04, 2026 3:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2026.05.04 15:15:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.04 15:15:06 INFO  time: indexed workspace in 2.37s
+2026.05.04 15:15:06 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.04 15:15:16 INFO  Shutting down server
+2026.05.04 15:15:16 INFO  Memory monitor stopped
+2026.05.04 15:15:16 INFO  shutting down Metals
+2026.05.04 15:15:16 INFO  Shut down connection with build server.
+2026.05.04 15:15:16 INFO  Shut down connection with build server.
+2026.05.04 15:15:16 INFO  Exiting server
+2026.05.08 10:10:12 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.[0m
+2026.05.08 10:10:12 INFO  Memory monitor started[0m
+2026.05.08 10:10:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.08 10:10:12 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+May 08, 2026 10:10:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.08 10:10:14 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+May 08, 2026 10:10:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.08 10:10:14 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.05.08 10:10:14 INFO  Attempting to connect to the build server...[0m
+2026.05.08 10:10:14 INFO  Found a Bloop server running[0m
+2026.05.08 10:10:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json[0m
+2026.05.08 10:10:14 INFO  Attempting to connect to the build server...[0m
+2026.05.08 10:10:14 INFO  Found a Bloop server running[0m
+May 08, 2026 10:10:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.05.08 10:10:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json[0m
+2026.05.08 10:10:14 INFO  time: Connected to build server in 0.36s[0m
+2026.05.08 10:10:14 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.08 10:10:14 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2[0m
+May 08, 2026 10:10:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+May 08, 2026 10:10:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.05.08 10:10:16 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.08 10:10:16 INFO  time: indexed workspace in 2.91s[0m
+2026.05.08 10:10:17 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:09 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:09 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:20:09 INFO  time: compiled nub-renewable-energy in 0.72s[0m
+2026.05.08 10:20:09 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:09 INFO  time: compiled nub-renewable-energy in 87ms[0m
+2026.05.08 10:20:10 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:13 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:13 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:20:13 INFO  time: compiled nub-renewable-energy in 0.5s[0m
+2026.05.08 10:20:13 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:13 INFO  time: compiled nub-renewable-energy in 64ms[0m
+2026.05.08 10:21:03 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:11 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:11 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:11 INFO  time: compiled nub-renewable-energy in 68ms[0m
+2026.05.08 10:21:16 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:16 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:16 INFO  time: compiled nub-renewable-energy in 54ms[0m
+2026.05.08 10:21:22 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:22 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:22 INFO  time: compiled nub-renewable-energy in 69ms[0m
+2026.05.08 10:21:26 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:26 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:26 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:26 INFO  time: compiled nub-renewable-energy in 0.52s[0m
+2026.05.08 10:21:26 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:26 INFO  time: compiled nub-renewable-energy in 52ms[0m
+2026.05.08 10:21:27 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:27 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:27 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:27 INFO  time: compiled nub-renewable-energy in 0.15s[0m
+2026.05.08 10:21:27 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:27 INFO  time: compiled nub-renewable-energy in 50ms[0m
+2026.05.08 10:21:29 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:29 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:29 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:29 INFO  time: compiled nub-renewable-energy in 0.48s[0m
+2026.05.08 10:21:29 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:29 INFO  time: compiled nub-renewable-energy in 48ms[0m
+2026.05.08 10:21:33 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:21:33 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:21:33 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:21:33 INFO  time: compiled nub-renewable-energy in 0.48s[0m

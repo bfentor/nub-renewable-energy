@@ -1,0 +1,43 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/hello-world_2.13-1.0.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergyMonitoringView$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergyMonitoringView$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergyReading$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergyReading$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/Main$delayedInit$body.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataAnalyzer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/DataAnalyzer.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergyDataAPI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergyDataAPI.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergySource$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergySource$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergyDataAPI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergyDataAPI$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergyMonitoringView.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergyMonitoringView.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/Main.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/Main$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataAnalyzer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/DataAnalyzer$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergySource$Solar$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergySource$Solar$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergySource$Wind$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergySource$Wind$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergySource$Hydro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergySource$Hydro$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AnalysisEngine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/AnalysisEngine.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	AnalysisEngine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/AnalysisEngine$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergySource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergySource.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataStorage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/DataStorage.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataStorage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/DataStorage$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	EnergyReading.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/target/scala-2.13/classes/EnergyReading.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
