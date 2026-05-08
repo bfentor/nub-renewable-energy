@@ -1728,3 +1728,73 @@ WARNING: Unmatched cancel notification for request id 3015
 2026.05.03 23:42:32 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
 2026.05.03 23:42:32 INFO  compiling nub-renewable-energy (1 scala source)
 2026.05.03 23:42:32 INFO  time: compiled nub-renewable-energy in 0.6s
+2026.05.03 23:57:41 INFO  Shutting down server
+2026.05.03 23:57:41 INFO  Memory monitor stopped
+2026.05.03 23:57:41 INFO  shutting down Metals
+2026.05.03 23:57:41 INFO  Shut down connection with build server.
+2026.05.03 23:57:41 INFO  Shut down connection with build server.
+2026.05.03 23:57:41 INFO  Exiting server
+2026.05.04 15:15:02 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.
+2026.05.04 15:15:02 INFO  Memory monitor started
+2026.05.04 15:15:02 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.04 15:15:02 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.04 15:15:04 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.04 15:15:04 INFO  Attempting to connect to the build server...
+2026.05.04 15:15:04 INFO  Found a Bloop server running
+2026.05.04 15:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.04 15:15:04 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7
+2026.05.04 15:15:04 INFO  Attempting to connect to the build server...
+2026.05.04 15:15:04 INFO  Found a Bloop server running
+2026.05.04 15:15:04 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json
+2026.05.04 15:15:04 INFO  time: Connected to build server in 0.34s
+2026.05.04 15:15:04 INFO  Connected to Build server: Bloop v2.0.19
+2026.05.04 15:15:04 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2
+May 04, 2026 3:15:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+May 04, 2026 3:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+May 04, 2026 3:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+2026.05.04 15:15:06 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.
+2026.05.04 15:15:06 INFO  time: indexed workspace in 2.37s
+2026.05.04 15:15:06 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version
+2026.05.04 15:15:16 INFO  Shutting down server
+2026.05.04 15:15:16 INFO  Memory monitor stopped
+2026.05.04 15:15:16 INFO  shutting down Metals
+2026.05.04 15:15:16 INFO  Shut down connection with build server.
+2026.05.04 15:15:16 INFO  Shut down connection with build server.
+2026.05.04 15:15:16 INFO  Exiting server
+2026.05.08 10:10:12 INFO  Started: Metals version 1.6.7 in folders '/home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy' for client Visual Studio Code 1.114.0.[0m
+2026.05.08 10:10:12 INFO  Memory monitor started[0m
+2026.05.08 10:10:12 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.08 10:10:12 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+May 08, 2026 10:10:14 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2026.05.08 10:10:14 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+May 08, 2026 10:10:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2026.05.08 10:10:14 INFO  no build target found for /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/src/main/scala/Main.scala. Using presentation compiler with project's scala-library version: 3.3.7[0m
+2026.05.08 10:10:14 INFO  Attempting to connect to the build server...[0m
+2026.05.08 10:10:14 INFO  Found a Bloop server running[0m
+2026.05.08 10:10:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json[0m
+2026.05.08 10:10:14 INFO  Attempting to connect to the build server...[0m
+2026.05.08 10:10:14 INFO  Found a Bloop server running[0m
+May 08, 2026 10:10:14 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+2026.05.08 10:10:14 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/balika/Documents/University/Year 2/Semester 2/Introduction to Functional Programming/Project/nub-renewable-energy/project/.metals/bsp.trace.json or /home/balika/.cache/metals/bsp.trace.json[0m
+2026.05.08 10:10:14 INFO  time: Connected to build server in 0.36s[0m
+2026.05.08 10:10:14 INFO  Connected to Build server: Bloop v2.0.19[0m
+2026.05.08 10:10:14 WARN  2.13.12 is no longer supported in the current Metals versions, using the last known supported version 1.4.2[0m
+May 08, 2026 10:10:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+May 08, 2026 10:10:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2026.05.08 10:10:16 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
+2026.05.08 10:10:16 INFO  time: indexed workspace in 2.91s[0m
+2026.05.08 10:10:17 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
