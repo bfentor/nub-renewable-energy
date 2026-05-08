@@ -1798,3 +1798,16 @@ WARNING: Unmatched cancel notification for request id 13
 2026.05.08 10:10:16 WARN  Using H2 2.4.240 which is newer than the version Flyway has been verified with. The latest verified version of H2 is 2.3.232.[0m
 2026.05.08 10:10:16 INFO  time: indexed workspace in 2.91s[0m
 2026.05.08 10:10:17 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:09 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:09 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:09 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:20:09 INFO  time: compiled nub-renewable-energy in 0.72s[0m
+2026.05.08 10:20:09 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:09 INFO  time: compiled nub-renewable-energy in 87ms[0m
+2026.05.08 10:20:10 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:13 WARN  Bloop is running with 17.0.18 but your code requires 26.0.1 to compile, this might cause some compilation issues when using JDK API unsupported by the Bloop's current JVM version[0m
+2026.05.08 10:20:13 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:13 WARN  1 deprecation (since 2.13.0); re-run with -deprecation for details[0m
+2026.05.08 10:20:13 INFO  time: compiled nub-renewable-energy in 0.5s[0m
+2026.05.08 10:20:13 INFO  compiling nub-renewable-energy (1 scala source)[0m
+2026.05.08 10:20:13 INFO  time: compiled nub-renewable-energy in 64ms[0m
